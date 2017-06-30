@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>googlefit_to_fitlegit</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>${PATH_TO_WD}/googlefit_to_fitlegit.sh</string>
+    </array>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardErrorPath</key>
+    <string>${PATH_TO_WD}/stderr.log</string>
+
+    <key>StandardOutPath</key>
+    <string>${PATH_TO_WD}/stdout.log</string>
+
+    <key>StartInterval</key>
+    <integer>3600</integer>
+</dict>
+</plist>
